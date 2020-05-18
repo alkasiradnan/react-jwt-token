@@ -79,7 +79,7 @@ class App extends Component {
           <div className="container mt-3">
             <Switch>
               {/* <Route exact path={["/", "/home"]} component={Home} /> */}
-              <Route exact path="/login" component={Login} />
+              <Route exact path={["/", "/login"]} component={Login} />
               <Route exact path="/register" component={SignUp} />
               <Route exact path="/profile" component={Profile} />
             </Switch>
